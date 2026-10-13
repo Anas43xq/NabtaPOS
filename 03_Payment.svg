@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nabta POS payment workflow</title>
+  <desc id="desc">Cash payment dialog with amount due, exact amount helper, cash received, change, and confirmation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFF"/><stop offset="1" stop-color="#E1EEFC"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2589E0"/><stop offset="1" stop-color="#1A6FC4"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0F2A4A"/><stop offset="1" stop-color="#1A3F6B"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#0F2A4A" flood-opacity=".2"/></filter>
+    <symbol id="mark" viewBox="0 0 256 256"><path fill="#123D35" d="M62 92h132c12 0 22 10 22 22v104l-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18V114c0-12 10-22 22-22Z"/><path fill="#72D6A1" d="M128 93c-2-28 5-52 21-70 13-14 30-23 52-27-1 24-9 43-24 57-13 12-29 19-49 22v18Z"/><path fill="#B7F2C8" d="M125 79c-22-4-39-13-51-27-11-13-16-29-16-49 22 3 40 11 52 26 12 14 17 31 15 50Z"/><rect fill="#F5FFF7" x="88" y="127" width="80" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="154" width="54" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="181" width="68" height="12" rx="6"/></symbol>
+    <style>text{font-family:"Segoe UI",Arial,sans-serif}.navy{fill:#0F2A4A}.muted{fill:#526777}.small{font-size:14px;fill:#526777}.label{font-size:15px;font-weight:650;fill:#1A3A5C}</style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="1400" cy="90" r="300" fill="#CDE7FF"/><path d="M0 690C240 620 410 710 560 900H0Z" fill="#E5FAED"/>
+  <g transform="translate(60 42)"><use href="#mark" width="66" height="66"/><text x="84" y="38" font-size="32" font-weight="760" class="navy">Nabta POS</text><text x="86" y="60" font-size="12" fill="#128274" letter-spacing="1.5">PAYMENT FLOW</text></g>
+  <g transform="translate(68 235)">
+    <rect width="170" height="36" rx="18" fill="#E5FAED"/><text x="85" y="24" text-anchor="middle" font-size="13" font-weight="700" fill="#128274" letter-spacing="1.4">CHECKOUT, SIMPLIFIED</text>
+    <text y="105" font-size="66" font-weight="760" class="navy">Fast, clear</text><text y="177" font-size="66" font-weight="760" class="navy">payments.</text>
+    <text y="228" font-size="22" class="muted">Keep the total visible, collect the</text><text y="261" font-size="22" class="muted">right amount, and confirm confidently.</text>
+    <g transform="translate(0 330)">
+      <circle cx="25" cy="25" r="25" fill="#EAF4FF"/><text x="25" y="32" text-anchor="middle" font-size="20" font-weight="800" fill="#2589E0">1</text><text x="66" y="20" class="label">Amount due</text><text x="66" y="43" class="small">Always visible</text>
+      <g transform="translate(0 82)"><circle cx="25" cy="25" r="25" fill="#FFF3CD"/><text x="25" y="32" text-anchor="middle" font-size="20" font-weight="800" fill="#D97706">2</text><text x="66" y="20" class="label">Exact amount</text><text x="66" y="43" class="small">One tap to fill cash received</text></g>
+      <g transform="translate(0 164)"><circle cx="25" cy="25" r="25" fill="#E5FAED"/><path d="M16 25l6 6 13-15" fill="none" stroke="#128274" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="66" y="20" class="label">Automatic change</text><text x="66" y="43" class="small">Confirm with fewer errors</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(565 132)" filter="url(#shadow)">
+    <rect width="970" height="660" rx="24" fill="#FFFFFF"/>
+    <rect width="970" height="64" rx="24" fill="url(#navy)"/><rect y="42" width="970" height="22" fill="url(#navy)"/><g transform="translate(18 8)"><use href="#mark" width="46" height="46"/><text x="58" y="28" font-size="17" font-weight="700" fill="#FFF">Nabta POS</text></g><text x="935" y="36" text-anchor="end" font-size="13" fill="#FFF">Hawa Cafeteria · Shift Open</text>
+    <g opacity=".5">
+      <rect x="18" y="82" width="590" height="474" rx="15" fill="#F0F7FF"/><rect x="624" y="82" width="328" height="474" rx="15" fill="#F8FBFF"/>
+      <g fill="#FFF" stroke="#DBEEFF"><rect x="40" y="130" width="164" height="95" rx="10"/><rect x="218" y="130" width="164" height="95" rx="10"/><rect x="396" y="130" width="164" height="95" rx="10"/><rect x="40" y="240" width="164" height="95" rx="10"/><rect x="218" y="240" width="164" height="95" rx="10"/><rect x="396" y="240" width="164" height="95" rx="10"/></g>
+      <text x="646" y="116" font-size="18" font-weight="700" class="navy">Current Order</text><rect x="646" y="140" width="284" height="74" rx="9" fill="#FFF"/><rect x="646" y="226" width="284" height="74" rx="9" fill="#FFF"/><path d="M646 435h284" stroke="#CBD5E1"/><text x="646" y="478" font-size="18" font-weight="700" class="navy">Total</text><text x="930" y="478" text-anchor="end" font-size="20" font-weight="800" fill="#15803D">AED 27.31</text>
+      <rect x="18" y="574" width="190" height="64" rx="11" fill="#16A34A"/><rect x="220" y="574" width="190" height="64" rx="11" fill="#2563EB"/>
+    </g>
+
+    <g transform="translate(194 108)" filter="url(#shadow)">
+      <rect width="582" height="484" rx="20" fill="#FFF"/>
+      <rect width="582" height="78" rx="20" fill="#F8FBFF"/><rect y="54" width="582" height="24" fill="#F8FBFF"/><path d="M0 78H582" stroke="#E2E8F0"/>
+      <rect x="24" y="18" width="42" height="42" rx="11" fill="url(#blue)"/><text x="45" y="44" text-anchor="middle" font-size="12" font-weight="800" fill="#FFF">Cash</text><text x="82" y="34" font-size="20" font-weight="750" class="navy">Cash Payment</text><text x="82" y="55" class="small">Complete the sale with cash</text><text x="548" y="41" font-size="24" class="muted">×</text>
+      <text x="28" y="124" class="label">Amount Due</text><text x="552" y="128" text-anchor="end" font-size="28" font-weight="800" fill="#15803D">AED 27.31</text>
+      <text x="28" y="182" class="label">Cash Received</text><rect x="28" y="200" width="526" height="60" rx="11" fill="#FFF" stroke="#B8D8F5" stroke-width="2"/><text x="50" y="238" font-size="19" class="navy">50.00</text>
+      <rect x="389" y="274" width="165" height="38" rx="9" fill="#E5FAED"/><text x="471" y="299" text-anchor="middle" font-size="13" font-weight="700" fill="#128274">Use exact amount</text>
+      <rect x="28" y="328" width="526" height="54" rx="11" fill="#F8FBFF"/><text x="48" y="362" class="label">Change</text><text x="532" y="364" text-anchor="end" font-size="21" font-weight="800" fill="#2589E0">AED 22.69</text>
+      <rect x="284" y="408" width="118" height="50" rx="10" fill="#FFF" stroke="#B8D8F5"/><text x="343" y="439" text-anchor="middle" class="label">Cancel</text><rect x="414" y="408" width="140" height="50" rx="10" fill="url(#blue)"/><text x="484" y="439" text-anchor="middle" font-size="14" font-weight="700" fill="#FFF">Confirm Cash</text>
+    </g>
+  </g>
+</svg>

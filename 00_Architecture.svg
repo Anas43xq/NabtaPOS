@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
+  <title id="title">Nabta POS architecture</title>
+  <desc id="desc">The WPF desktop and ASP.NET Core API use shared business and data layers, while the external mobile app connects through the API.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFF"/><stop offset="1" stop-color="#EAF4FF"/></linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2589E0"/><stop offset="1" stop-color="#1A6FC4"/></linearGradient>
+    <linearGradient id="navy" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0F2A4A"/><stop offset="1" stop-color="#1A3F6B"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%"><feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#0F2A4A" flood-opacity=".13"/></filter>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0 0L10 5 0 10Z" fill="#5B8AB0"/></marker>
+    <symbol id="mark" viewBox="0 0 256 256"><path fill="#123D35" d="M62 92h132c12 0 22 10 22 22v104l-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18V114c0-12 10-22 22-22Z"/><path fill="#72D6A1" d="M128 93c-2-28 5-52 21-70 13-14 30-23 52-27-1 24-9 43-24 57-13 12-29 19-49 22v18Z"/><path fill="#B7F2C8" d="M125 79c-22-4-39-13-51-27-11-13-16-29-16-49 22 3 40 11 52 26 12 14 17 31 15 50Z"/><rect fill="#F5FFF7" x="88" y="127" width="80" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="154" width="54" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="181" width="68" height="12" rx="6"/></symbol>
+    <style>text{font-family:"Segoe UI",Arial,sans-serif}.title{font-size:23px;font-weight:750;fill:#0F2A4A}.sub{font-size:15px;fill:#526777}.tag{font-size:12px;font-weight:700;letter-spacing:1.2px;fill:#2589E0}</style>
+  </defs>
+  <rect width="1600" height="760" rx="28" fill="url(#bg)"/><circle cx="1510" cy="20" r="260" fill="#D5EAFF"/><path d="M0 620C180 560 340 610 470 760H0Z" fill="#E5FAED"/>
+  <g transform="translate(58 42)"><use href="#mark" width="62" height="62"/><text x="80" y="34" font-size="31" font-weight="760" fill="#0F2A4A">Nabta POS</text><text x="82" y="57" class="tag">SYSTEM ARCHITECTURE</text></g>
+  <text x="1540" y="72" text-anchor="end" font-size="17" fill="#526777">Shared rules. Clear boundaries.</text>
+
+  <g transform="translate(62 168)">
+    <g filter="url(#shadow)"><rect width="300" height="156" rx="20" fill="#FFF"/><rect width="10" height="156" rx="5" fill="#2589E0"/><rect x="34" y="34" width="54" height="54" rx="14" fill="#EAF4FF"/><path d="M48 50h27v19H48zM53 75h17" fill="none" stroke="#2589E0" stroke-width="3" stroke-linecap="round"/><text x="110" y="55" class="tag">WINDOWS CLIENT</text><text x="110" y="86" class="title">WPF Desktop</text><text x="34" y="124" class="sub">Cashier and manager UI</text></g>
+    <g transform="translate(0 224)" filter="url(#shadow)"><rect width="300" height="156" rx="20" fill="#FFF"/><rect width="10" height="156" rx="5" fill="#72D6A1"/><rect x="34" y="34" width="54" height="54" rx="14" fill="#E5FAED"/><rect x="50" y="43" width="22" height="40" rx="4" fill="none" stroke="#128274" stroke-width="3"/><circle cx="61" cy="76" r="2" fill="#128274"/><text x="110" y="55" font-size="12" font-weight="700" letter-spacing="1.2" fill="#128274">EXTERNAL CLIENT</text><text x="110" y="86" class="title">Mobile App</text><text x="34" y="124" class="sub">React Native manager companion</text></g>
+
+    <g transform="translate(430 112)" filter="url(#shadow)"><rect width="300" height="184" rx="20" fill="#FFF"/><rect width="300" height="10" rx="5" fill="url(#blue)"/><rect x="32" y="34" width="54" height="54" rx="14" fill="#EAF4FF"/><path d="M47 50h24M47 61h24M47 72h16" stroke="#2589E0" stroke-width="3" stroke-linecap="round"/><text x="108" y="55" class="tag">HTTP + JSON</text><text x="108" y="86" class="title">ASP.NET Core API</text><text x="32" y="126" class="sub">JWT authentication · OpenAPI</text><text x="32" y="151" class="sub">Thin controllers for remote clients</text></g>
+
+    <g transform="translate(860 38)" filter="url(#shadow)"><rect width="300" height="156" rx="20" fill="#FFF"/><rect width="10" height="156" rx="5" fill="#8250DF"/><circle cx="61" cy="61" r="28" fill="#F3EEFF"/><path d="M49 61h24M61 49v24" stroke="#8250DF" stroke-width="3" stroke-linecap="round"/><text x="110" y="55" font-size="12" font-weight="700" letter-spacing="1.2" fill="#8250DF">SHARED RULES</text><text x="110" y="86" class="title">BLL Services</text><text x="34" y="124" class="sub">Workflows and business logic</text></g>
+    <g transform="translate(860 248)" filter="url(#shadow)"><rect width="300" height="156" rx="20" fill="#FFF"/><rect width="10" height="156" rx="5" fill="#0E9AAA"/><circle cx="61" cy="61" r="28" fill="#E7FAFC"/><path d="M47 48h28v25H47zM53 43h16" fill="none" stroke="#0E9AAA" stroke-width="3"/><text x="110" y="55" font-size="12" font-weight="700" letter-spacing="1.2" fill="#0E9AAA">PERSISTENCE</text><text x="110" y="86" class="title">DAL Repositories</text><text x="34" y="124" class="sub">EF Core · targeted ADO.NET</text></g>
+
+    <g transform="translate(1290 143)" filter="url(#shadow)"><rect width="248" height="176" rx="20" fill="url(#navy)"/><ellipse cx="124" cy="52" rx="54" ry="22" fill="#2589E0"/><path d="M70 52v56c0 12 24 22 54 22s54-10 54-22V52" fill="#1A3F6B" stroke="#72D6A1" stroke-width="2"/><path d="M70 80c0 12 24 22 54 22s54-10 54-22" fill="none" stroke="#72D6A1" stroke-width="2"/><text x="124" y="151" text-anchor="middle" font-size="22" font-weight="750" fill="#FFF">SQL Server</text></g>
+
+    <path d="M300 78C520 78 650 48 860 116" fill="none" stroke="#2589E0" stroke-width="3.5" marker-end="url(#arrow)"/><text x="568" y="60" text-anchor="middle" class="sub">direct service calls</text>
+    <path d="M300 302C350 302 360 280 430 280" fill="none" stroke="#5B8AB0" stroke-width="3" stroke-dasharray="8 7" marker-end="url(#arrow)"/><text x="363" y="332" text-anchor="middle" class="sub">REST / JSON</text>
+    <path d="M730 204C786 204 798 116 860 116" fill="none" stroke="#5B8AB0" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1010 194V248" fill="none" stroke="#5B8AB0" stroke-width="3" marker-end="url(#arrow)"/>
+    <path d="M1160 326C1215 326 1230 231 1290 231" fill="none" stroke="#5B8AB0" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <g transform="translate(505 650)"><rect width="590" height="62" rx="31" fill="#FFF" stroke="#DBEEFF"/><text x="295" y="25" text-anchor="middle" class="tag">CONTRACTS</text><text x="295" y="47" text-anchor="middle" class="sub">Shared request, response, DTO, and printing models</text></g>
+</svg>

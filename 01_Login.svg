@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nabta POS secure login</title>
+  <desc id="desc">Branded Nabta POS login screen with username and password fields.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFF"/><stop offset="1" stop-color="#EAF4FF"/></linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#2589E0"/><stop offset="1" stop-color="#1A6FC4"/></linearGradient>
+    <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#E5FAED"/><stop offset="1" stop-color="#C9F3DB"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="18" stdDeviation="26" flood-color="#0F2A4A" flood-opacity=".16"/></filter>
+    <symbol id="mark" viewBox="0 0 256 256">
+      <path fill="#123D35" d="M62 92h132c12 0 22 10 22 22v104l-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18V114c0-12 10-22 22-22Z"/>
+      <path fill="#72D6A1" d="M128 93c-2-28 5-52 21-70 13-14 30-23 52-27-1 24-9 43-24 57-13 12-29 19-49 22v18Z"/>
+      <path fill="#B7F2C8" d="M125 79c-22-4-39-13-51-27-11-13-16-29-16-49 22 3 40 11 52 26 12 14 17 31 15 50Z"/>
+      <rect fill="#F5FFF7" x="88" y="127" width="80" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="154" width="54" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="181" width="68" height="12" rx="6"/>
+    </symbol>
+    <style>
+      text{font-family:"Segoe UI",Arial,sans-serif}.navy{fill:#0F2A4A}.muted{fill:#526777}.blue{fill:#2589E0}.label{font-size:16px;font-weight:600;fill:#1A3A5C}.small{font-size:14px;fill:#526777}.micro{font-size:12px;fill:#5B8AB0;letter-spacing:1.5px}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1480" cy="70" r="330" fill="#D9EDFF"/><circle cx="1480" cy="70" r="238" fill="#C7E4FF" opacity=".72"/>
+  <path d="M0 725C220 640 360 695 520 835V900H0Z" fill="#E5FAED" opacity=".9"/>
+
+  <g transform="translate(62 48)"><use href="#mark" width="70" height="70"/><text x="88" y="36" font-size="34" font-weight="750" class="navy">Nabta POS</text><text x="90" y="60" class="micro">POINT OF SALE</text></g>
+  <text x="1518" y="82" text-anchor="end" font-size="18" class="muted">Secure access for every shift</text>
+
+  <g transform="translate(72 238)">
+    <rect x="0" y="-54" width="150" height="34" rx="17" fill="url(#mint)"/><text x="75" y="-31" text-anchor="middle" font-size="13" font-weight="700" fill="#128274" letter-spacing="1.6">WELCOME BACK</text>
+    <text x="0" y="40" font-size="68" font-weight="760" class="navy">Start with</text><text x="0" y="112" font-size="68" font-weight="760" class="navy">confidence.</text>
+    <text x="2" y="164" font-size="23" class="muted">A focused sign-in experience for</text><text x="2" y="198" font-size="23" class="muted">cashiers and managers.</text>
+    <g transform="translate(0 265)">
+      <g><circle cx="24" cy="24" r="24" fill="#EAF4FF"/><path d="M15 25l6 6 13-15" fill="none" stroke="#2589E0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="62" y="21" class="label">Role-aware access</text><text x="62" y="44" class="small">Cashier and manager workflows</text></g>
+      <g transform="translate(0 86)"><circle cx="24" cy="24" r="24" fill="#E5FAED"/><path d="M17 24h14M24 17v14" stroke="#128274" stroke-width="4" stroke-linecap="round"/><text x="62" y="21" class="label">Fast shift start</text><text x="62" y="44" class="small">Move from sign-in to service quickly</text></g>
+      <g transform="translate(0 172)"><circle cx="24" cy="24" r="24" fill="#FFF3CD"/><path d="M16 25l5 5 12-13" fill="none" stroke="#D97706" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><text x="62" y="21" class="label">Protected operations</text><text x="62" y="44" class="small">Clear approvals for sensitive actions</text></g>
+    </g>
+  </g>
+
+  <g transform="translate(638 150)" filter="url(#shadow)">
+    <rect width="858" height="650" rx="28" fill="#FFFFFF"/>
+    <rect width="858" height="76" rx="28" fill="#F8FBFF"/><rect y="48" width="858" height="28" fill="#F8FBFF"/><path d="M0 76H858" stroke="#E2E8F0"/>
+    <g transform="translate(28 15)"><use href="#mark" width="48" height="48"/><text x="62" y="31" font-size="20" font-weight="700" class="navy">Nabta POS</text></g>
+    <circle cx="789" cy="38" r="5" fill="#BBF7D0"/><text x="807" y="44" text-anchor="middle" class="small">Secure</text>
+
+    <g transform="translate(94 112)">
+      <text x="335" y="36" text-anchor="middle" font-size="30" font-weight="750" class="navy">Sign in</text>
+      <text x="335" y="70" text-anchor="middle" font-size="16" class="muted">Enter your credentials to continue</text>
+      <rect x="220" y="94" width="230" height="46" rx="23" fill="#F0F7FF"/>
+      <circle cx="246" cy="117" r="7" fill="#16A34A"/><text x="264" y="123" font-size="14" font-weight="650" class="navy">Hawa Cafeteria</text>
+
+      <text x="0" y="190" class="label">Username</text>
+      <rect x="0" y="208" width="670" height="62" rx="12" fill="#FFFFFF" stroke="#B8D8F5" stroke-width="2"/>
+      <circle cx="30" cy="235" r="8" fill="none" stroke="#5B8AB0" stroke-width="2"/><path d="M18 258c2-10 8-15 12-15s10 5 12 15" fill="none" stroke="#5B8AB0" stroke-width="2"/>
+      <text x="58" y="246" font-size="16" class="muted">Enter your username</text>
+      <text x="0" y="316" class="label">Password</text>
+      <rect x="0" y="334" width="670" height="62" rx="12" fill="#FFFFFF" stroke="#B8D8F5" stroke-width="2"/>
+      <rect x="21" y="355" width="18" height="16" rx="3" fill="none" stroke="#5B8AB0" stroke-width="2"/><path d="M25 355v-5a5 5 0 0110 0v5" fill="none" stroke="#5B8AB0" stroke-width="2"/>
+      <text x="58" y="372" font-size="16" class="muted">Enter your password</text>
+      <path d="M630 365c10-12 20-12 30 0-10 12-20 12-30 0Z" fill="none" stroke="#5B8AB0" stroke-width="2"/><circle cx="645" cy="365" r="4" fill="#5B8AB0"/>
+      <rect x="0" y="438" width="670" height="64" rx="12" fill="url(#brand)"/><text x="335" y="479" text-anchor="middle" font-size="18" font-weight="700" fill="#FFFFFF">Sign in</text>
+      <text x="335" y="540" text-anchor="middle" class="small">Nabta POS · v2.0</text>
+    </g>
+  </g>
+</svg>

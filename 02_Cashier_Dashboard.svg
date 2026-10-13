@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Nabta POS cashier dashboard</title>
+  <desc id="desc">Current cashier workflow with product catalog, order cart, totals, and payment actions.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F8FCFF"/><stop offset="1" stop-color="#E1EEFC"/></linearGradient>
+    <linearGradient id="header" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#0F2A4A"/><stop offset="1" stop-color="#1A3F6B"/></linearGradient>
+    <linearGradient id="cash" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16A34A"/><stop offset="1" stop-color="#128274"/></linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="16" stdDeviation="22" flood-color="#0F2A4A" flood-opacity=".18"/></filter>
+    <symbol id="mark" viewBox="0 0 256 256"><path fill="#123D35" d="M62 92h132c12 0 22 10 22 22v104l-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18-15 18-15-18V114c0-12 10-22 22-22Z"/><path fill="#72D6A1" d="M128 93c-2-28 5-52 21-70 13-14 30-23 52-27-1 24-9 43-24 57-13 12-29 19-49 22v18Z"/><path fill="#B7F2C8" d="M125 79c-22-4-39-13-51-27-11-13-16-29-16-49 22 3 40 11 52 26 12 14 17 31 15 50Z"/><rect fill="#F5FFF7" x="88" y="127" width="80" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="154" width="54" height="12" rx="6"/><rect fill="#72D6A1" x="88" y="181" width="68" height="12" rx="6"/></symbol>
+    <style>
+      text{font-family:"Segoe UI",Arial,sans-serif}.navy{fill:#0F2A4A}.muted{fill:#526777}.blue{fill:#2589E0}.tiny{font-size:11px;fill:#526777}.small{font-size:13px;fill:#526777}.label{font-size:14px;font-weight:650;fill:#1A3A5C}.price{font-size:15px;font-weight:750;fill:#1A6FC4}.card{fill:#FFF;stroke:#DBEEFF;stroke-width:1.5}
+    </style>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/><circle cx="1510" cy="60" r="280" fill="#CDE7FF"/><path d="M0 750C250 650 450 730 590 900H0Z" fill="#E5FAED"/>
+  <g transform="translate(58 32)"><use href="#mark" width="62" height="62"/><text x="78" y="34" font-size="31" font-weight="750" class="navy">Nabta POS</text><text x="80" y="56" font-size="12" fill="#128274" letter-spacing="1.4">CASHIER WORKSPACE</text></g>
+  <text x="1518" y="67" text-anchor="end" font-size="18" class="muted">Fast service. Clear decisions.</text>
+  <g transform="translate(54 120)" filter="url(#shadow)">
+    <rect width="1492" height="704" rx="24" fill="#ECEEEA"/>
+    <rect width="1492" height="72" rx="24" fill="url(#header)"/><rect y="48" width="1492" height="24" fill="url(#header)"/>
+    <g transform="translate(22 10)"><use href="#mark" width="50" height="50"/><text x="64" y="25" font-size="18" font-weight="700" fill="#FFF">Nabta POS</text><circle cx="70" cy="43" r="4" fill="#72D6A1"/><text x="82" y="47" font-size="12" fill="#FFF">Shift Open</text></g>
+    <text x="510" y="43" font-size="13" fill="#FFF" opacity=".9">Hawa Cafeteria</text>
+    <g transform="translate(1065 14)"><rect width="90" height="42" rx="9" fill="#FFF" opacity=".14"/><text x="45" y="27" text-anchor="middle" font-size="13" fill="#FFF">Settings</text><rect x="102" width="130" height="42" rx="9" fill="#FFF" opacity=".14"/><text x="167" y="27" text-anchor="middle" font-size="13" fill="#FFF">Cash Movement</text><rect x="244" width="98" height="42" rx="9" fill="#D97706"/><text x="293" y="27" text-anchor="middle" font-size="13" fill="#FFF">End Day</text><text x="375" y="27" font-size="13" fill="#FFF">Cashier</text></g>
+
+    <rect x="14" y="86" width="1030" height="526" rx="16" fill="#FFF"/><rect x="1058" y="86" width="420" height="526" rx="16" fill="#FFF"/>
+    <g transform="translate(30 102)">
+      <rect width="142" height="408" rx="12" fill="#F6FAFF"/><text x="20" y="32" class="label">Categories</text>
+      <rect x="10" y="50" width="122" height="40" rx="20" fill="#2589E0"/><text x="71" y="76" text-anchor="middle" font-size="13" font-weight="700" fill="#FFF">All</text>
+      <text x="26" y="124" class="small">Breakfast</text><text x="26" y="168" class="small">Sandwiches</text><text x="26" y="212" class="small">Pizza</text><text x="26" y="256" class="small">Juices</text><text x="26" y="300" class="small">Desserts</text>
+      <g transform="translate(162 0)">
+        <rect width="838" height="48" rx="12" fill="#F8FBFF" stroke="#B8D8F5"/><circle cx="24" cy="24" r="8" fill="none" stroke="#5B8AB0" stroke-width="2"/><path d="M30 30l7 7" stroke="#5B8AB0" stroke-width="2"/><text x="50" y="30" class="small">Search products...</text>
+        <text y="82" class="label">Popular today</text>
+        <g transform="translate(0 100)">
+          <g><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#FFF3CD"/><text x="72" y="35" class="label">Zaatar Wrap</text><text x="72" y="58" class="price">AED 6.50</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(208)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#E5FAED"/><text x="72" y="35" class="label">Cheese Manakish</text><text x="72" y="58" class="price">AED 8.00</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(416)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#FDE8E4"/><text x="72" y="35" class="label">Chicken Pizza</text><text x="72" y="58" class="price">AED 9.00</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(624)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#E7FAFC"/><text x="72" y="35" class="label">Fresh Juice</text><text x="72" y="58" class="price">AED 7.50</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(0 138)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#EAF4FF"/><text x="72" y="35" class="label">Meat Sandwich</text><text x="72" y="58" class="price">AED 8.50</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(208 138)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#F3EEFF"/><text x="72" y="35" class="label">Labneh Wrap</text><text x="72" y="58" class="price">AED 7.00</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(416 138)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#FFF3CD"/><text x="72" y="35" class="label">Egg &amp; Cheese</text><text x="72" y="58" class="price">AED 6.00</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+          <g transform="translate(624 138)"><rect width="194" height="122" rx="12" class="card"/><rect x="14" y="14" width="44" height="44" rx="12" fill="#E5FAED"/><text x="72" y="35" class="label">Mint Lemonade</text><text x="72" y="58" class="price">AED 5.50</text><text x="14" y="97" class="tiny">Tap to add</text></g>
+        </g>
+      </g>
+    </g>
+
+    <g transform="translate(1078 105)">
+      <text font-size="20" font-weight="750" class="navy">Current Order</text><rect x="0" y="34" width="116" height="34" rx="17" fill="#2589E0"/><text x="58" y="56" text-anchor="middle" font-size="12" font-weight="700" fill="#FFF">Dine-in</text><rect x="126" y="34" width="116" height="34" rx="17" fill="#F0F7FF"/><text x="184" y="56" text-anchor="middle" class="tiny">Takeaway</text><rect x="252" y="34" width="116" height="34" rx="17" fill="#F0F7FF"/><text x="310" y="56" text-anchor="middle" class="tiny">Delivery</text>
+      <g transform="translate(0 88)"><rect width="380" height="82" rx="11" fill="#F8FBFF"/><text x="16" y="25" class="label">Cheese Manakish</text><text x="16" y="49" class="tiny">Regular · No extras</text><text x="16" y="70" class="small">2 × AED 8.00</text><text x="350" y="48" text-anchor="end" class="price">16.00</text></g>
+      <g transform="translate(0 180)"><rect width="380" height="82" rx="11" fill="#F8FBFF"/><text x="16" y="25" class="label">Fresh Juice</text><text x="16" y="49" class="tiny">Large · Orange</text><text x="16" y="70" class="small">1 × AED 7.50</text><text x="350" y="48" text-anchor="end" class="price">7.50</text></g>
+      <rect x="0" y="278" width="380" height="45" rx="10" fill="#FFF" stroke="#DBEEFF"/><text x="14" y="28" class="small">Order note (optional)</text>
+      <path d="M0 344H380" stroke="#E2E8F0"/><text x="0" y="376" class="small">Subtotal</text><text x="380" y="376" text-anchor="end" class="label">AED 23.50</text><text x="0" y="405" class="small">Tax</text><text x="380" y="405" text-anchor="end" class="label">AED 1.18</text><text x="0" y="444" font-size="20" font-weight="750" class="navy">Total</text><text x="380" y="444" text-anchor="end" font-size="23" font-weight="800" fill="#15803D">AED 24.68</text>
+    </g>
+
+    <g transform="translate(14 626)">
+      <rect width="196" height="62" rx="12" fill="url(#cash)"/><text x="98" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="#FFF">Cash - F3</text><text x="98" y="48" text-anchor="middle" font-size="16" font-weight="800" fill="#FFF">AED 24.68</text>
+      <rect x="208" width="196" height="62" rx="12" fill="#2563EB"/><text x="306" y="25" text-anchor="middle" font-size="14" font-weight="700" fill="#FFF">Card - F4</text><text x="306" y="48" text-anchor="middle" font-size="16" font-weight="800" fill="#FFF">AED 24.68</text>
+      <text x="450" y="38" class="label">Reprint Last - F6</text><text x="620" y="38" class="label">Recent Sales - F5</text><text x="800" y="38" class="label">Receipt # - F7</text><text x="950" y="38" class="label">Discount - F8</text>
+      <rect x="1272" width="192" height="62" rx="12" fill="#DC2626"/><text x="1368" y="38" text-anchor="middle" font-size="14" font-weight="700" fill="#FFF">Clear Sale - Ctrl+N</text>
+    </g>
+  </g>
+</svg>
