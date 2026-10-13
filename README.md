@@ -91,13 +91,6 @@ The React Native mobile project is intentionally stored outside this repository.
 - SQL Server with permission to create the `POS_DB` database
 - `sqlcmd` if you want to deploy the database from the command line
 
-## Tests
-
-Run the business and SQL-contract test project:
-
-```powershell
-dotnet test .\Tests\POS.Business.Tests\POS.Business.Tests.csproj
-```
 
 The suite covers payment reconciliation, discounts and VAT, void authorization, duplicate/concurrent operations, cash movements, drawer math, and the SQL contracts used by transaction workflows. Tests that require a live SQL Server need a configured POS database; the remaining tests run without one.
 
